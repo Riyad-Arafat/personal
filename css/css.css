@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-wrap: break-word;
+    position: relative;
+
+}
+a, a:hover{
+    color: unset;
+}
+
+
+#header{
+    background: linear-gradient(0deg, rgb(0, 0, 0), #00397730), url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#left-header{
+    color: #ffff;
+    background-color: #212929;
+}
+#pic{
+    overflow: hidden;
+}
+#nav a{
+    font-size: x-large;
+    color: #ffff;
+    display: block;
+    background-color: unset;
+    border: unset;
+}
+#nav a:hover{
+    color: #000000;
+    background-color: #ffff;
+    text-decoration: none;
+}
+#nav a.active{
+    background-color: #ffffff;
+    color: #000000;
+}
+#social-links li a {
+    color: #ffff;
+    padding: 3px 10px;
+    display: block;
+}
+#social-links li a:hover{
+    color: #000000;
+    background-color: #ffff;
+    text-decoration: none;
+}
+#content{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("https://img.itch.zone/aW1hZ2UyL3VzZXIvOTk2MDU3LzEwOTM4MDEuanBn/original/Cge6Jl.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.progress{
+    height: 1.5rem;
+}
+#contact{
+    background-image: url();
+    background-attachment: fixed;
+}
+.form-control{
+    background-color: unset;
+    color: #e4e4e4;
+}
+.form-control:focus{
+    color: #ffffff;
+    background-color: #7575778a;
+}
+
+
+
+#my-worke a{
+    font-size: 2em;
+}
+
+#works{
+    position: relative;
+
+}
+.tab-content{
+    display: none;
+}
+.tab-content.show {
+    display: inline-block;
+}
