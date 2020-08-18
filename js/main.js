@@ -11,5 +11,10 @@ $(document).ready(function(){
     })
 })
 
-
-
+$('body').scrollspy({ target: '#nav' })
+$(window).scroll(function(){
+    let i = $(".list-group-item");
+    if( window.scrollY == 0 ){
+        $(i[0]).addClass("active");
+    }
+})
