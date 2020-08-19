@@ -1,11 +1,14 @@
 html{
     scroll-behavior: smooth;
 }
+
 body{
     overflow-wrap: break-word;
     position: relative;
+    font-family: monospace;
 
 }
+
 a, a:hover{
     color: unset;
 }
@@ -16,38 +19,64 @@ a, a:hover{
     background-position: center;
 }
 
-#left-header{
+#about{
     color: #ffff;
-    background-color: #212929;
 }
+
 #pic{
     overflow: hidden;
 }
+
+#pic img{
+    border-radius: 100%;
+    width: 300px;
+}
 #nav a{
     font-size: x-large;
-    color: #ffff;
+    color: rgba(255, 255, 255, 0.41);
     display: block;
-    background-color: unset;
-    border: unset;
+    border: 1px solid #9e9b9b;
+    background: #26292d7d;
 }
+
 #nav a:hover{
     color: #000000;
     background-color: #ffff;
     text-decoration: none;
 }
+
 #nav a.active{
     background-color: #ffffff;
     color: #000000;
 }
+
 #social-links li a {
     color: #ffff;
-    padding: 3px 10px;
+    padding: 11px 20px 3px;
     display: block;
+    font-size: xx-large;
+    border-radius: 4px;
 }
+
 #social-links li a:hover{
     color: #000000;
     background-color: #ffff;
     text-decoration: none;
+    
+}
+
+#content{
+    min-height: 1108px;
+    margin: auto;
+}
+
+#nav{
+    bottom: 75px;
+}
+
+#skills, #my-work,
+#contact{
+    display: none;
 }
 
 #about{
@@ -62,17 +91,13 @@ a, a:hover{
     top: 0px;
     left: 0px;
 }
+
 .down-icon{
     font-size: xxx-large;
     transition: all 0.45s ease;
 }
 
-.down-icon:hover{
-    font-size: 94px;
-    color: #2b81ea;
-}
-
-#content{
+#screen{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
     background-attachment: fixed;
     background-size: cover;
@@ -89,11 +114,6 @@ a, a:hover{
     font-size: x-large;
     font-weight: bold;
     border-radius: 0px 20px 20px 0px;
-}
-
-#contact{
-    background-image: url();
-    background-attachment: fixed;
 }
 
 .form-control{

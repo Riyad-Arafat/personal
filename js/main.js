@@ -11,10 +11,22 @@ $(document).ready(function(){
     })
 })
 
-$('body').scrollspy({ target: '#nav' })
-$(window).scroll(function(){
-    let i = $(".list-group-item");
-    if( window.scrollY == 0 ){
-        $(i[0]).addClass("active");
-    }
+
+
+
+
+$(document).ready(function(){
+    const $item = $('.n-i'), $content = $("#content");
+    $($item).click(function(){
+        if (!$(this).hasClass("active")){
+            $($item).removeClass("active");
+            $($content).children().hide();
+
+
+            $(this).addClass("active");
+            $($content).children('[data-target="'+ $(this).attr("id") +'"]').fadeIn();
+            
+       
+        }
+    })
 })
