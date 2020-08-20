@@ -159,7 +159,10 @@ a, a:hover{
 
 .form-control{
     background-color: unset;
-    color: #e4e4e4;
+    color: #ffffff;
+}
+.form-control::placeholder{
+    color: #b3b8bd;
 }
 
 .form-control:focus{
