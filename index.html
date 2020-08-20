@@ -238,16 +238,40 @@
             </div>
         </div>
     </div> 
-    <div id="nav" class="w-100 container">
+    <div id="nav" class="w-100 container d-none d-lg-block">
         <ul class="align-items-center text-center d-flex col mb-3 list-unstyled">
-            <li class="m-auto btn"> <a id="about-btn" class="n-i list-group-item active">About</a></li>
-            <li class="m-auto btn"> <a id="skills-btn" class="n-i list-group-item" >Skills</a></li>
-            <li class="m-auto btn"> <a id="my-work-btn" class="n-i list-group-item" >My Work</a></li>
-            <li class="m-auto btn"> <a id="contact-btn" class="n-i list-group-item" >Contact</a></li>
+            <li class="m-auto btn"> <a target="about-btn" class="n-i list-group-item active">About</a></li>
+            <li class="m-auto btn"> <a target="skills-btn" class="n-i list-group-item" >Skills</a></li>
+            <li class="m-auto btn"> <a target="my-work-btn" class="n-i list-group-item" >My Work</a></li>
+            <li class="m-auto btn"> <a target="contact-btn" class="n-i list-group-item" >Contact</a></li>
         </ul>  
     </div>
+
+
+    <div id="nav-sec" class="position-fixed d-lg-none">
+        <div class="container">
+            <div id="nav-circle" class="row">
+                <div class="bg-light d-inline-block out-circle">
+                    <div class="bg-dark in-circle overflow-hidden text-light justify-content-center">
+                        <h1 class="">M</h1>
+                    </div>
+                </div>
+                <ul class="list-inline m-0" style="display: none;">
+                    <li class="btn d-block"><a target="about-btn" class="n-i">About</a></li>
+                    <li class="btn d-block"><a target="skills-btn"  class="n-i">Skills</a></li>
+                    <li class="btn d-block"><a target="my-work-btn"  class="n-i">My Work</a></li>
+                    <li class="btn d-block"><a target="contact-btn"  class="n-i">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+         
+
+    </div>
+
+
     <div class="fixed-bottom text-light left">
-        <p>
+        <p class="m-0">
             Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script>
             All rights reserved | This template is made with <i class="fa fa-heart" style="color: red;"></i>
             by <a href="https://www.facebook.com/RiyadElberkawy" target="_blank" style="color: #ffffff;">Riyad</a>

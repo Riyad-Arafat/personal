@@ -12,9 +12,6 @@ $(document).ready(function(){
 })
 
 
-
-
-
 $(document).ready(function(){
     const $item = $('.n-i'), $content = $("#content");
     $($item).click(function(){
@@ -24,9 +21,26 @@ $(document).ready(function(){
 
 
             $(this).addClass("active");
-            $($content).children('[data-target="'+ $(this).attr("id") +'"]').fadeIn();
+            $($content).children('[data-target="'+ $(this).attr("target") +'"]').fadeIn();
             
        
         }
+    })
+})
+
+
+$(document).ready(function(){
+    const $cir = $("#nav-circle");
+
+    $($cir).click(function(){
+        if($("#nav-sec ul").hasClass('show')){
+            $("#nav-sec ul").removeClass("show")
+            $("#nav-sec ul").hide();
+        }else{
+            $("#nav-sec ul").addClass("show")
+            $("#nav-sec ul").show();
+        }
+        
+
     })
 })
