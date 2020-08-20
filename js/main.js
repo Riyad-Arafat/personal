@@ -1,3 +1,11 @@
+
+$(window).on("load", function() {
+    
+
+    $('.loading').remove();
+
+    });
+
 /**  Toggle show my works  **/
 $(document).ready(function(){
     const $but = $('.k-w'), $content = $(".tab-content");
@@ -5,8 +13,8 @@ $(document).ready(function(){
         if (!$(this).hasClass("active")){
             $($but).removeClass("active");
             $(this).addClass("active");
-            $($content).hide("slow");
-            $('[data-target="'+ $(this).attr("id") +'"]').show("slow");
+            $($content).hide();
+            $('[data-target="'+ $(this).attr("id") +'"]').fadeIn();
         }
     })
 })
@@ -21,7 +29,7 @@ $(document).ready(function(){
 
 
             $(this).addClass("active");
-            $($content).children('[data-target="'+ $(this).attr("target") +'"]').fadeIn();
+            $($content).children('[data-target="'+ $(this).attr("data-target") +'"]').fadeIn();
             
        
         }
@@ -38,9 +46,8 @@ $(document).ready(function(){
             $("#nav-sec ul").hide();
         }else{
             $("#nav-sec ul").addClass("show")
-            $("#nav-sec ul").show();
+            $("#nav-sec ul").fadeIn();;
         }
-        
 
     })
 })

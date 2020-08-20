@@ -13,8 +13,10 @@
     <title>Riyad Elberkawy</title>
   </head>
   <body id="screen">
+
+    <div class="loading"></div>
     <div id="content" class="w-100 row row-cols-1">
-        <div id="about" class="container pb-5 text-center show" data-target="about-btn">
+        <div id="about" class="container align-self-center text-center show" data-target="about-btn">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 row-cols-1 m-auto">
@@ -57,7 +59,7 @@
                 </div>    
             </div>
         </div>   
-        <div id="skills" class="container-fluid justify-content-center text-light pb-5 m-auto" data-target="skills-btn">
+        <div id="skills" class="container-fluid justify-content-center text-light align-self-center" data-target="skills-btn">
             <div class="container">
                 <div class="row row-cols-1">
                     <div class="col text-center m-auto ">
@@ -109,15 +111,15 @@
                 </div>
             </div> 
         </div>
-        <div id="my-work" class=" container-fluid m-auto pb-5" data-target="my-work-btn">
-            <div class="text-light m-auto container">
-                <nav>
+        <div id="my-work" class=" container-fluid align-self-center" data-target="my-work-btn">
+            <div class="text-light m-auto">
+                <nav class="container">
                     <ul class="nav nav-tabs nav-justified justify-content-center">
                         <li class="nav-item tab-pane">
-                            <a id="Front-end" class="nav-link btn k-w active">Front-end</a>
+                            <button id="Front-end" class="btn-block nav-link btn k-w active">Front-end</button>
                         </li>
                         <li class="nav-item tab-pane">
-                            <a id="Full-stack" class="nav-link btn k-w">Full-stack</a>
+                            <button id="Full-stack" class="btn-block nav-link btn k-w">Full-stack</button>
                         </li>
                     </ul>
                 </nav>
@@ -126,42 +128,50 @@
                         <div class="container">
                             <div class="row row-cols-md-2 align-items-center">
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                                                                                                             
                             </div>
                             <div class="pagination d-flex">
                                 <div class="page-item">
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -170,35 +180,43 @@
                         <div class="container">
                             <div class="row row-cols-md-2 align-items-center">
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col mt-5">
-                                    <div class="work-item card-body">
+                                    <div class="work-item card-body p-0">
                                         <img src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" class="card-img-top">
                                         <h4 class="card-title text-center mt-2">sfadsdg</h4>
-                                        <p class="lead card-text">safadgksdojgoiwejgiwoeg</p>
-                                        <button class="btn btn-outline-light btn-block">priview</button>
+                                        <div class="d-flex">
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fas fa-eye"></i> priview</a>
+                                            <a href="#" class="btn btn-outline-light m-auto"><i class="fab fa-github"></i> Source</a>
+                                        </div>
                                     </div>
                                 </div>
                                                                                                 
@@ -208,7 +226,7 @@
                 </div>
             </div>
         </div>
-        <div id="contact" class="container-fluid m-auto text-center pt-5" data-target="contact-btn">
+        <div id="contact" class="container-fluid align-self-center text-center" data-target="contact-btn">
             <div class="container">
                 <div class="text-light mb-5">
                     <h1 class="border-bottom d-inline-block border-danger">Contant</h1>
@@ -240,10 +258,10 @@
     </div> 
     <div id="nav" class="w-100 container d-none d-lg-block">
         <ul class="align-items-center text-center d-flex col mb-3 list-unstyled">
-            <li class="m-auto btn"> <a target="about-btn" class="n-i list-group-item active">About</a></li>
-            <li class="m-auto btn"> <a target="skills-btn" class="n-i list-group-item" >Skills</a></li>
-            <li class="m-auto btn"> <a target="my-work-btn" class="n-i list-group-item" >My Work</a></li>
-            <li class="m-auto btn"> <a target="contact-btn" class="n-i list-group-item" >Contact</a></li>
+            <li class="m-auto btn"> <button  data-target="about-btn" class="n-i m-auto list-group-item active">About</button></li>
+            <li class="m-auto btn"> <button  data-target="skills-btn" class="n-i m-auto list-group-item" >Skills</button></li>
+            <li class="m-auto btn"> <button  data-target="my-work-btn" class="n-i m-auto list-group-item" >My Work</button></li>
+            <li class="m-auto btn"> <button  data-target="contact-btn" class="n-i m-auto list-group-item" >Contact</button></li>
         </ul>  
     </div>
 
@@ -257,10 +275,10 @@
                     </div>
                 </div>
                 <ul class="list-inline m-0" style="display: none;">
-                    <li class="btn d-block"><a target="about-btn" class="n-i">About</a></li>
-                    <li class="btn d-block"><a target="skills-btn"  class="n-i">Skills</a></li>
-                    <li class="btn d-block"><a target="my-work-btn"  class="n-i">My Work</a></li>
-                    <li class="btn d-block"><a target="contact-btn"  class="n-i">Contact</a></li>
+                    <li class="btn d-block"><button data-target="about-btn" class="n-i m-auto">About</button></li>
+                    <li class="btn d-block"><button data-target="skills-btn"  class="n-i m-auto">Skills</button></li>
+                    <li class="btn d-block"><button data-target="my-work-btn"  class="n-i m-auto">My Work</button></li>
+                    <li class="btn d-block"><button data-target="contact-btn"  class="n-i m-auto">Contact</button></li>
                 </ul>
             </div>
             
@@ -272,7 +290,7 @@
 
     <div class="fixed-bottom text-light left">
         <p class="m-0">
-            Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script>
+            Copyright © <script>document.write(new Date().getFullYear());</script>
             All rights reserved | This template is made with <i class="fa fa-heart" style="color: red;"></i>
             by <a href="https://www.facebook.com/RiyadElberkawy" target="_blank" style="color: #ffffff;">Riyad</a>
         </p>

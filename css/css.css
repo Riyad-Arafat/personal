@@ -31,7 +31,7 @@ a, a:hover{
     border-radius: 100%;
     width: 250px;
 }
-#nav a{
+.n-i{
     font-size: x-large;
     color: rgba(255, 255, 255, 0.41);
     display: block;
@@ -39,15 +39,16 @@ a, a:hover{
     background: #26292d7d;
 }
 
-#nav a:hover{
+#nav .n-i:hover{
     color: #000000;
     background-color: #ffff;
     text-decoration: none;
 }
 
-#nav a.active{
+#nav .n-i.active{
     background-color: #ffffff;
     color: #000000;
+    border: none;
 }
 
 #nav-sec{
@@ -82,7 +83,7 @@ a, a:hover{
     margin-top: 17px;
 }
 
-#nav-sec ul li a{
+#nav-sec ul li .n-i{
     font-size: x-large;
     color: rgb(255, 255, 255);
     display: block;
@@ -118,17 +119,9 @@ a, a:hover{
     margin: auto;
 }
 
-#nav{
-    bottom: 75px;
-}
-
 #skills, #my-work,
 #contact{
     display: none;
-}
-
-#about{
-    margin: auto 0px;
 }
 
 .shadow-img{
@@ -141,7 +134,7 @@ a, a:hover{
 }
 
 .down-icon{
-    font-size: xxx-large;
+    font-size: xx-large;
     transition: all 0.45s ease;
 }
 
@@ -193,4 +186,18 @@ a, a:hover{
 
 .tab-content.show {
     display: block;
+}
+
+.loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
 }
