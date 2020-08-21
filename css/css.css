@@ -25,11 +25,13 @@ a, a:hover{
 
 #pic{
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 #pic img{
     border-radius: 100%;
-    width: 250px;
+    width: 80%;
 }
 .n-i{
     font-size: x-large;
@@ -115,8 +117,8 @@ a, a:hover{
 }
 
 #content{
-    min-height: 1108px;
-    margin: auto;
+    min-height: 990px;
+    
 }
 
 #skills, #my-work,
@@ -139,6 +141,7 @@ a, a:hover{
 }
 
 #screen{
+    overflow: hidden;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
     background-attachment: fixed;
     background-size: cover;
