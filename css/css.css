@@ -11,6 +11,11 @@ body{
     overflow-wrap: break-word;
     position: relative;
     font-family: monospace;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -122,8 +127,12 @@ a, a:hover{
 }
 
 #content{
-    min-height: 860px;
+    min-height: 978px;
     
+}
+
+#my-work{
+    place-content: center;
 }
 
 #skills, #my-work,
@@ -148,13 +157,7 @@ a, a:hover{
 #screen{
     display: grid;
     grid-template-columns: auto;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 .progress{
