@@ -150,7 +150,6 @@ a, a:hover{
     grid-template-columns: auto;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
     background-attachment: fixed;
     background-size: cover;
