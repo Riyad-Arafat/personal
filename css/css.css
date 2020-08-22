@@ -12,21 +12,13 @@ body{
     position: relative;
     font-family: monospace;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 a, a:hover{
     color: unset;
-}
-
-#header{
-    background: linear-gradient(0deg, rgb(0, 0, 0), #00397730), url("img/head-bg.jpeg");
-    background-attachment: fixed;
-    background-position: center;
 }
 
 #about{
@@ -132,8 +124,6 @@ a, a:hover{
 #content{
     margin-bottom: 40px;
     order: 1;
-
-    
 }
 
 #my-work{
