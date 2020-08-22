@@ -133,6 +133,7 @@ a, a:hover{
     margin-bottom: 40px;
     order: 1;
 
+    
 }
 
 #my-work{
@@ -161,7 +162,6 @@ a, a:hover{
 #screen{
     display: grid;
     grid-template-columns: auto;
-    grid-row-gap: 100px;
     
 }
 
