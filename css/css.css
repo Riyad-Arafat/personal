@@ -50,6 +50,9 @@ a, a:hover{
     border: 1px solid #9e9b9b;
     background: #26292d7d;
 }
+#nav{
+    order: 0;
+}
 
 #nav .n-i:hover{
     color: #000000;
@@ -127,7 +130,8 @@ a, a:hover{
 }
 
 #content{
-    min-height: 978px;
+    margin-bottom: 40px;
+    order: 1;
     
 }
 
@@ -203,6 +207,10 @@ a, a:hover{
 
 .tab-content.show {
     display: block;
+}
+
+#copyright{
+    order: 3;
 }
 
 .loading {
