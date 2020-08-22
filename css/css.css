@@ -7,16 +7,6 @@ html, body {
     margin: 0px;
 }
 
-body{
-    overflow-wrap: break-word;
-    position: relative;
-    font-family: monospace;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 a, a:hover{
     color: unset;
 }
@@ -154,6 +144,13 @@ a, a:hover{
     flex-direction: column;
     height: 100%;
     overflow: auto;
+    overflow-wrap: break-word;
+    position: relative;
+    font-family: monospace;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .progress{
