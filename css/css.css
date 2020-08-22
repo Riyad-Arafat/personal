@@ -150,9 +150,8 @@ a, a:hover{
 }
 
 #screen{
-    display: grid;
-    grid-template-columns: auto;
-    grid-row-gap: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .progress{
