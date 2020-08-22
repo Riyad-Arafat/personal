@@ -122,7 +122,7 @@ a, a:hover{
 }
 
 #content{
-    margin-bottom: 40px;
+    margin: 40px auto;
     order: 1;
 }
 
@@ -152,6 +152,8 @@ a, a:hover{
 #screen{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    overflow: auto;
 }
 
 .progress{
