@@ -11,6 +11,11 @@ body{
     overflow-wrap: break-word;
     position: relative;
     font-family: monospace;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -44,6 +49,9 @@ a, a:hover{
     display: block;
     border: 1px solid #9e9b9b;
     background: #26292d7d;
+}
+#nav{
+    order: 0;
 }
 
 #nav .n-i:hover{
@@ -122,8 +130,13 @@ a, a:hover{
 }
 
 #content{
-    min-height: 860px;
+    margin-bottom: 40px;
+    order: 1;
     
+}
+
+#my-work{
+    place-content: center;
 }
 
 #skills, #my-work,
@@ -148,14 +161,8 @@ a, a:hover{
 #screen{
     display: grid;
     grid-template-columns: auto;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31), rgba(0,0,0)), url("img/content-bg.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    grid-row-gap: 100px;
+    
 }
 
 .progress{
@@ -201,6 +208,10 @@ a, a:hover{
 
 .tab-content.show {
     display: block;
+}
+
+#copyright{
+    order: 3;
 }
 
 .loading {
